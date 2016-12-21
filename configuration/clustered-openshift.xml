@@ -39,7 +39,7 @@
                 </authorization>
                 <server-identities>          
                     <ssl >            
-                        <keystore path="jdg-cluster.ks" relative-to="jboss.server.config.dir" keystore-password="jdg-cluster-store-pass"/>          
+                        <keystore path="jdg-cluster.ks" relative-to="jboss.server.config.dir" keystore-password="jdg-cluster-pass"/>          
                     </ssl>        
                 </server-identities>
             </security-realm>
