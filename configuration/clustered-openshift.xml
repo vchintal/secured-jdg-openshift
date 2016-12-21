@@ -39,7 +39,7 @@
                 </authorization>
                 <server-identities>          
                     <ssl >            
-                        <keystore path="/etc/datagrid-secret-volume/jdg-cluster.ks" keystore-password="jdg-cluster-store-pass"/>          
+                        <keystore path="jdg-cluster.ks" relative-to="jboss.server.config.dir" keystore-password="jdg-cluster-store-pass"/>          
                     </ssl>        
                 </server-identities>
             </security-realm>
